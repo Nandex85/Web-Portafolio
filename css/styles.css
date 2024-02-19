@@ -1,0 +1,206 @@
+html{
+    height: 100%;
+  /*width: 100vw;
+    height: 100vh;*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#03C4A1;
+    --secundary: #EEEEEE;
+    --dark1: #393E46;
+    --dark2:#232931;
+}
+body{
+  /*  border: 5px solid green;*/
+    position: relative;
+    font-family: Verdana, Georgia, Geneva, Tahoma, sans-serif;
+  /*  overflow: hidden;*/
+    line-height: 1.6;
+   /* color: #393E46;*/
+   /* background: url(/img/cafe.jpg)no-repeat;
+    background-size: cover;*/
+    background-color: var(--dark1);
+    width: auto;
+    height: 100vh;
+    /*top: 5%;/*
+    min-height: 100%;/*
+    max-width: 400px;*/
+    padding: 5em;
+    
+}
+#header {
+ /* border: 1px solid red;*/
+    color: var(--secundary);
+    background-color: var(--dark2);
+    position: fixed;
+    display: grid;
+    width: 100vw;
+    padding: 1em 5em;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.logo{
+    
+    color: var(--secundary);
+    text-decoration: none;
+    list-style: none;
+    
+}
+.logo-f{
+    background-color: #03C4A1;
+    border: 1px solid var(--secundary);
+    border-radius: 5px;
+    padding: 0.5em 0em;
+  
+}
+
+.logo span{
+    background-color: var(--secundary);
+    border: 1px solid #03C4A1;
+    color: #03C4A1;
+    border-radius: 5px;
+    padding: 0.5em 0em;
+}
+
+.header__nav{
+  /*  border: 1px solid #EEEEEE;*/
+    display: flex;
+    justify-content: space-between;
+    /*padding: 1em;*/
+    
+}
+.nav__ul{
+   /* border: 1px solid #EEEEEE;*/
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    padding: 1em;
+}
+.nav__ul li{
+    /*border: 1px solid #ff3;*/
+    list-style: none;
+}
+.nav__ul--link{
+    color: var(--secundary);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+}
+.nav__ul--link--active{
+    color: #03C4A1;
+}
+.nav__ul--link--active:hover{
+    color: var(--secundary);
+}
+.nav__ul--link:hover{
+    background-color: #03C4A1;
+    /*color: #393E46;*/
+    transition: ease-in .3s;
+}
+
+/****************INICIO DE MAIN********************/
+
+.main-begin{
+    color: #EEEEEE;
+    display: flex;
+   /* border: 1px solid #232931;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #232931;*/
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+    margin-top: 1em;
+}
+.profile-picture{
+    border: 1px solid rebeccapurple;
+    display: flexbox;
+    
+    
+}
+.main-begin h2{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+  /*  border-radius: 25px;
+   /* box-shadow: 0px 0px 10px #232931;*/
+}
+.main-begin span{
+   /* border: 1px solid rgb(32, 32, 37);*/
+    color: #03C4A1;
+    
+}
+.img-fer{
+   /* width: 200px;
+   border: 1px solid red;*/
+   margin: 1em;
+   border: 2px solid #03C4A1;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px #03C4A1;
+}
+.profile-description{
+  /*  border: 1px solid green;*/
+    width: 50%;
+    padding: 2em;
+    
+}
+
+.profile-title{
+    color: #03C4A1;
+   /* font-size: 1.4em;*/
+}
+.profile-featured{
+    color: #EEEEEE;
+}
+.profile-video{
+    width: 320px;
+    height: 180px;
+    /*border: 1px solid #03C4A1;
+   /* border-radius: 5px;*/
+    /*box-shadow: 0px 0px 5px #03C4A1;*/
+}
+.profile-refran{
+   /* border: 1px solid yellow;*/
+    width: 320px;
+    
+}
+.profile-refran p{
+    font-size: 14px;
+    margin: 0.5em;
+}
+.button-cv{
+    color: #EEEEEE;   
+    background-color: #03C4A1;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 1.5em;
+    display: flex;
+    align-items: center;
+   
+  }
+  .button-cv:hover{
+    /*font-weight: bold;*/
+    color: #03C4A1;
+    background-color: #EEEEEE;
+  }
+  .download-cv{
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+  }
+.skill{
+    /*border: 1px solid #232931;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #232931;*/
+    color: #EEEEEE;
+    display: flexbox;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1em 10em;
+}
