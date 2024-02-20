@@ -195,12 +195,21 @@ body{
     list-style: none;
   }
 .skill{
-    /*border: 1px solid #232931;
+    border: 1px solid red;/*
     border-radius: 10px;
     box-shadow: 0px 0px 5px #232931;*/
     color: #EEEEEE;
-    display: flexbox;
+    display: inline-block;
     text-align: center;
     justify-content: space-between;
     padding: 1em 10em;
+}
+.skill-desarrollo{
+    border: 1px solid blue;
+}
+.skill-desarrollo div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
