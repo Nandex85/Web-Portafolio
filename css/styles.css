@@ -117,7 +117,8 @@ body{
 .main-begin{
     color: #EEEEEE;
     display: flex;
-   /* border: 1px solid red;/*
+    border: 1px solid red;
+    /*
     border-radius: 10px;
     box-shadow: 0px 0px 10px #232931;*/
     justify-content: space-around;
@@ -126,7 +127,7 @@ body{
     
 }
 .profile-picture{
-   /* border: 1px solid rebeccapurple;*/
+    border: 1px solid rebeccapurple;
     display: flexbox;
     
     
@@ -153,9 +154,9 @@ body{
     box-shadow: 0px 0px 5px #03C4A1;
 }
 .profile-description{
-  /*  border: 1px solid green;*/
-    width: 50%;
-    padding: 2em;
+    border: 1px solid green;
+    width: 60%;
+    padding: 2em 0em;
     
 }
 
@@ -165,23 +166,23 @@ body{
 }
 .profile-featured{
     color: #EEEEEE;
-}
+}/*
 .profile-video{
     width: 320px;
     height: 180px;
     /*border: 1px solid #03C4A1;
    /* border-radius: 5px;*/
-    /*box-shadow: 0px 0px 5px #03C4A1;*/
+    /*box-shadow: 0px 0px 5px #03C4A1;
 }
 .profile-refran{
-   /* border: 1px solid yellow;*/
+   /* border: 1px solid yellow;
     width: 320px;
     
 }
 .profile-refran p{
     font-size: 14px;
     margin: 0.5em;
-}
+}*/
 .button-cv{
     color: #EEEEEE;   
     background-color: #03C4A1;
