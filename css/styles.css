@@ -255,10 +255,54 @@ body{
 
 .contacto{
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
 }
 .contacto-form{
-    display: flex;
-    padding: 50px 55px;
+    
+    width: 50%;
+    color: #EEEEEE;
+    border: 1px solid #232931;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #232931;
+    padding: 1em;
+}
+.contacto h2{
+   /* border: 1px solid yellowgreen;*/
+    color: #03C4A1;
+    text-align: center;
+    padding: 0.5em;
+}
+#formulario{
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0em;
+}
+#formulario label{
+   /* border: 1px solid orangered;*/
+    display: block;
+    padding: 0.5em;
+    
+}
+#formulario input{
+    width: 80%;
+    border-radius: 10px;
+    padding: 1em;
+    
+}
+#formulario textarea {
+    width: 80%; /* Ancho inicial */
+    height: 150px; /* Altura inicial */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+#btn-enviar{
+    background-color: #03C4A1;
+    border-radius: 5px;
 }
 /********************+++FOOTHER**************/
 footer {

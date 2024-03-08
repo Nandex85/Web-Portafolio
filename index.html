@@ -96,18 +96,19 @@
             </div>   
         </section>
         <section class="contacto">
-            <form action="#" method="post" class="contacto contacto-form">
+            <form action="#" method="post" class="contacto-form">
                 <h2>Contacto</h2>
-                <div id="formulario"></div>
+                <div id="formulario">
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" placeholder="Escriba su nombre" required>
-                    <label for="phone">Telefono</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Escriba su número teléfono" required>
+                    <input type="text" id="name" name="name" placeholder="Nombre Completo" required>
+                    <label for="phone">Telefono:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Código de área mas número teléfono" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Escriba su correo" required>
-                    <label for="message">Mensaje</label>
-                    <textarea name="message" id="message" cols="30" rws="5" placeholder="Escriba su mensake" required></textarea>
-                    <input type="btn" type="submit" value="Enviar">
+                    <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="message"  placeholder="Escriba su mensake" required></textarea>
+                    <input type="btn" type="submit" value="Enviar" id="btn-enviar">
+                    
                 </div>
             </form>    
             
