@@ -1,7 +1,6 @@
 function cambiarColor(){
 
-    var body = document.body;
-    /*var element = document.getElementById("miDiv");*/
-    body.style.backgroundColor = '#EEEEEE';
-    body.style.color = "#232931";
+    const body = document.body; 
+    body.classList.toggle('cambiarColor');
+  
 }

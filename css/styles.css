@@ -5,12 +5,17 @@
     box-sizing: border-box;
 }
 :root{
-
+    /*modo dark*/
     --primary:#03C4A1;
     --secundary: #EEEEEE;
     --tertiary: aqua;
     --dark1: #393E46;
     --dark2:#232931;
+    /*modo claro*/
+    --tono1: #E7F6F2;
+    --tono2: #A5C9CA;
+    --tono3: #395B64;
+    --tono4: #2C3333;
 }
 /************************************************/
 
@@ -184,6 +189,8 @@ main{
     justify-content: space-around;
     list-style: none;
   }
+  /********TEGNOLOGIA*********/ 
+
 .technology{
 
     color: var(--secundary);   
@@ -328,5 +335,76 @@ footer {
     .redes-sociales img {
       width: 20px;
       height: 20px;
+    }
+}
+/**********************CAMBIAR DE FONDO CON JAVASCRIPT***********/
+
+.cambiarColor{
+
+    background-color: var(--tono1);
+/*****cabecera********/
+    header{
+        background-color: var(--tono4);
+    }
+    .nav__ul--link{
+        color: var(--tono1);
+    }
+    .nav__ul--link:hover{
+        background: var(--tono3);
+    }
+    .nav__ico li a:hover{
+        color: var(--tono2);
+    }
+    .nav__ico li a img:hover{
+        background-color: var(--tono2);
+    }
+    .nav__ul--link--active{
+        color: var(--tono2);
+    }
+
+/******SOBRE MI*******/
+    .profile-title{
+        color: var(--tono3);
+    }
+    .caracteristica{
+        color: var(--tono4);
+    }
+    .button-cv{
+        background-color: var(--tono3);
+        color: var(--tono1);
+    }
+    .button-cv:hover{
+        background-color: var(--tono4);
+    }
+
+    .profile-picture{
+        color: var(--tono3);
+    }
+    .profile-picture span{
+        color: var(--tono3);
+    }
+    .img-fer{
+
+        border: 2px solid var(--tono2);
+        box-shadow: 0px 0px 5px var(--tono2);
+    }
+    .technology{
+        color: var(--tono4);
+    }
+    .technology h2{
+        color: var(--tono3);
+    }
+    .technology-lenguage div{
+
+        border: 1px solid var(--tono3);
+        box-shadow: 0px 0px 5px var(--tono3);
+        
+    }
+    footer{
+        background-color: var(--tono4);
+        color: var(--tono1);
+    }
+    .redes-sociales img:hover {
+        background-color: var(--tono1);
     }
 }
