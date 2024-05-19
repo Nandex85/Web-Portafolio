@@ -199,15 +199,19 @@ main{
     text-align: center;
 }
 .technology h2{
-
-    color: var(--primary);
+    display: inline;
+    /**background-color: var(--dark2);**/
+    color: var(--secundary);
+    border: 2px solid var(--primary);
+    border-radius:5em;
     padding: 0.5em;
+    
 }
 .technology-lenguage{
 
     display: flex;   
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em 1em;
 }
 
 .technology-lenguage div{
@@ -233,7 +237,42 @@ main{
 .technology-lenguage div:hover{
     animation: girar 2s linear infinite;
 }
+/***********PORTAFOLIO**************/
+.portafolio{
+    justify-content: space-between;   
+    text-align: center;
+    
+}
+.portafolio h2{
+  
+    display: inline;
+    color: var(--secundary);
+    /**background-color: var(--secundary);**/
+    border: 2px solid var(--primary);
+    border-radius:5em;
+    padding: 0.5em;
+}
+.portafolio div{
+   
+    width: 200px;
+    text-decoration:  none;
+    list-style: none;
+    color: var(--secundary);
+}
+.portafolio-container{
+    border: 1px solid red;
+    color: var(--secundary);
+}
 
+.portafolio-container h3 p{
+    color: var(--secundary);
+    background-color: var(--tono3);
+    
+    
+    /**display: inline;
+    padding: 0.5em;**/
+    
+}
 /*******************CONTACTO********************/
 
 .contacto{
