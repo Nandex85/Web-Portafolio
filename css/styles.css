@@ -356,13 +356,16 @@ footer {
     padding: 1em;
    
 }
+footer h2{
+    padding: 0.5em 0em;
+}
 .redes-sociales{
 
     padding: 1em;
 }
 .redes-sociales img {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     margin: 0 5px;
     
 }
