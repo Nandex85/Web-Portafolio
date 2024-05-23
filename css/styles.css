@@ -192,21 +192,24 @@ main{
   /********TEGNOLOGIA*********/ 
 
 .technology{
-
+    display: grid;
     color: var(--secundary);   
     /**background-color: var(--tono1);**/
     text-align: center;
     /**align-items: center;
     justify-content: space-between;   **/
+    
 }
 .technology h2{
     display: inline;
     /**background-color: var(--dark2);**/
     color: var(--secundary);
-    border: 2px solid var(--primary);
-    border-radius:5em;
-    padding: 0.5em;
-
+   /** border: 2px solid var(--primary);
+    border-radius:5em;**/
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: var(--primary);
+    margin-bottom: 1.5em;
 }
 .technology-lenguage{
     margin: 1em;
